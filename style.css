@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.con1 {
+    position: relative;
+}
+
+.image {
+    background-image: url(./images/bg-header-mobile.png);
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    bottom: 40px;
+    left: 35vw;
+}
+
+.con2 {
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.con2 h1 {
+    font-size: 40px;
+    padding: 25px 0px;
+    color: #43484B;
+}
+
+.con2 p {
+    padding: 25px 0px;
+    font-size: 20px;
+    color: #C1C5C6;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0px;
+}
+
+.btn1 {
+    border: none;
+    width: 90vw;
+    text-align: center;
+    background-color: #26BBA5;
+    height: 7vh;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn2 {
+    border: none;
+    width: 90vw;
+    text-align: center;
+    background-color: #6174FF;
+    height: 7vh;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.con3 {
+    padding: 50px 0px;
+}
+
+.con4 {
+    padding: 50px 0px;
+}
+
+.con5 {
+    padding: 50px 0px;
+}
+
+.con6 {
+    padding: 50px 0px;
+}
+
+.con2 img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+}
+
+.con2 .companies img {
+    width: auto;
+    padding: 30px 0px;
+}
+
+.con5 svg {
+    margin: 20px 0px
+}
+
+.con2 h2 {
+    color: #43484B;
+}
+
+.con5 h1 {
+    padding: 25px 0px 5px 0px;
+}
+
+.con5 p {
+    padding: 15px 0px;
+}
+
+.companies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.footer {
+    text-align: center;
+    padding: 0px 20px;
+    background-color: #F5F6F8;
+    padding: 40px 0px;
+    margin-top: 50px;
+}
+
+.footer img {
+    height: 7vh;
+    margin: 10px 0px;
+}
+
+.footer ul li {
+    list-style: none;
+    padding: 20px 0px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #4c5053;
+}
+
+.social {
+    padding: 20px 0px;
+}
+
+.social svg {
+    margin: 10px 15px;
+}
+
+@media screen and (min-width:1024px) {
+    .image {
+        background-image: url(./images/bg-header-desktop.png);
+        height: 30vh;
+    }
+
+    .logo {
+        left: 43vw;
+    }
+
+    .con3 {
+        margin: 0px 150px;
+    }
+
+    .btn {
+        flex-direction: row;
+
+    }
+
+    .btn1 {
+        width: 25vw;
+    }
+
+    .btn2 {
+        width: 25vw;
+    }
+
+    .con2 h1 {
+        padding: 10px 0px;
+    }
+
+    .con2 p {
+        padding: 10px 0px;
+    }
+
+    .con4 img {
+        height: 45vh;
+        width: 40vw;
+        object-fit: contain;
+    }
+
+    .con4 h1,
+    p {
+        margin: 0px 150px;
+    }
+
+    .con5 .img1 {
+        width: auto;
+        height: 50vh;
+    }
+
+    .sec {
+        display: flex;
+        align-items: center;
+    }
+
+    .sec1 {
+        text-align: left;
+        padding-left: 40px;
+        width: 50vw;
+    }
+
+    .sec1 p {
+        margin: 0;
+    }
+
+    .list {
+        display: flex;
+        align-items: center;
+    }
+
+    .list p {
+        margin: 0;
+    }
+
+    .box {
+        width: 33vw;
+    }
+
+    .companies {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px 40px;
+    }
+
+    .footer ul {
+        display: flex;
+        justify-content: space-around;
+        margin-right: auto;
+        gap: 30px;
+        width: 55vw;
+        padding-left: 30px;
+        flex-wrap: wrap;
+    }
+
+}
